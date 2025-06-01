@@ -1,27 +1,31 @@
 # Classes and Objects in Python: Calculate the Area of a Circle
-
-# Tuple in Python: Check Element Existence
 ## NAME : REVATHI.S
 ## REG NO: 212224230228
 ## 🎯 Aim
-To write a Python program that checks if the element `'n'` and the element `8` exist within a given tuple.
+To write a Python program that calculates the **area of a circle** based on the radius provided by the user. This program uses a class named `cse` and a method `mech` to perform the calculation.
 
 ## 🧠 Algorithm
-1. Define a tuple `x` with some letters and numbers.
-2. Use the `in` operator to check if the string `'n'` exists within the tuple.
-3. Use the `in` operator to check if the integer `8` exists within the tuple.
-4. Print the results.
+1. **Get user input**: Take the radius of the circle as input from the user.
+2. **Define the class**: Create a class named `cse`.
+3. **Define the method**: Inside the class, define the method `mech` to calculate the area of the circle using the formula:  
+   Area = pi *r^2 
+4. **Execute the program**: Create an object of the class and call the method with the radius value.
 
 ## 🧾 Program
+
 ```
-x=("s", 8, "a", "v", "n", "g", "u", "r", "c", "e") 
-print("n" in x) 
-print(8 in x)
+import math
+class Saveetha:
+    def __init__(self, r):
+        self.area = math.pi * (r ** 2) 
+    def slot(self):
+        print("Area of circle:", round(self.area, 2))
+r = float(input())
+res = Saveetha(r)  
+res.slot()
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/bea47d3e-3057-48b4-891d-c6a93e5199e5)
+![image](https://github.com/user-attachments/assets/e65d8a03-1d6e-4019-a206-f454793f10a8)
 
 ## Result
 Thus,the program has been executed successfully.
-
-
