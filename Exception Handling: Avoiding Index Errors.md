@@ -1,4 +1,4 @@
-=# Exception Handling in Python: Avoiding Index Errors
+# Exception Handling in Python: Avoiding Index Errors
 ## NAME : REVATHI.S
 ## REG NO: 212224230228
 ## 🎯 Aim
